@@ -1,6 +1,6 @@
 # Compiling Aseprite
 
-A guide to compiling Aseprite (1.12.2).
+A guide to compiling Aseprite (1.12.16.2).
 
 - [Compiling Aseprite](#compiling-aseprite)
   - [Introduction](#introduction)
@@ -35,9 +35,8 @@ The following are what are formally needed to be able to compile Aseprite. Setti
 - [Visual Studio Community 2019](https://visualstudio.microsoft.com/downloads/)
 - The [Desktop development with C++ item + Windows 10.0.17763.0 SDK](https://imgur.com/4Pq2Cbv)
   from the Visual Studio installer
-- The latest version of [CMake](https://cmake.org/) (3.14 or greater)
-- [Ninja](https://ninja-build.org/) build system
 - And a compiled version of the aseprite-m71 branch of the [Skia library](https://github.com/aseprite/skia#readme).
+- [Clang: llvm](https://github.com/llvm/llvm-project/releases/download/llvmorg-9.0.1/LLVM-9.0.1-win64.exe)
 
 ## Setting up your dev environment
 

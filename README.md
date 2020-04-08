@@ -106,4 +106,4 @@ You can then find the executable inside `C:\aseprite\build\bin\aseprite.exe`.
 
 ![Windows Aseprite Build Bin](img/windows_build_success_aseprite_bin.png)
 
-If you do not plan to do debugging, you can get rid of the files ending in `.pdb` and `.ilk` so that you're left with `aseprite.exe`, `gen.exe`, `modp_b64_gen.exe`, and the `data` folder.
+If you do not plan to do debugging, you can get rid of all the files except for `aseprite.exe` and the `data` folder.

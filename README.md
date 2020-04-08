@@ -75,12 +75,14 @@ Download the 1.12.17 source code from [https://github.com/aseprite/aseprite/rele
 
 Once you've done that,
 
-Open a [developer command prompt](https://docs.microsoft.com/en-us/dotnet/framework/tools/developer-command-prompt-for-vs)
+Open a [x64 developer command prompt](https://docs.microsoft.com/en-us/dotnet/framework/tools/developer-command-prompt-for-vs)
 or command line (`cmd.exe`) and call:
 
 ```
 call "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\Tools\VsDevCmd.bat" -arch=x64
 ```
+
+![Windows Developer Console x64](img/windows_developer_console_x64.png)
 
 Then do the following:
 
@@ -96,4 +98,12 @@ cmake -DCMAKE_BUILD_TYPE=RelWithDebInfo -DLAF_BACKEND=skia -DSKIA_DIR=C:\deps\sk
 ninja aseprite
 ```
 
-Ninja will compile Aseprite and you will find the executable inside `C:\aseprite\build\bin\aseprite.exe`.
+Ninja will compile Aseprite and if all goes well, you should ***not*** see a message like this:
+
+`ninja: build stopped: subcommand failed.`
+
+You can then find the executable inside `C:\aseprite\build\bin\aseprite.exe`.
+
+![Windows Aseprite Build Bin](img/windows_build_success_aseprite_bin.png)
+
+If you do not plan to do debugging, you can get rid of the files ending in `.pdb` and `.ilk` so that you're left with `aseprite.exe`, `gen.exe`, `modp_b64_gen.exe`, and the `data` folder.

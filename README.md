@@ -1,6 +1,6 @@
 # Compiling Aseprite
 
-A guide to compiling Aseprite (1.12.17).
+A guide to compiling Aseprite (1.12.18).
 
 - [Compiling Aseprite](#compiling-aseprite)
   - [Introduction](#introduction)
@@ -71,7 +71,7 @@ They've made it easier! No longer do you have to compile Skia anymore, you can j
 
 Since Skia is precompiled, you just need to grab Aseprite sources:
 
-Download the 1.12.17 source code from [https://github.com/aseprite/aseprite/releases/download/v1.2.17/Aseprite-v1.2.17-Source.zip](https://github.com/aseprite/aseprite/releases/download/v1.2.17/Aseprite-v1.2.17-Source.zip) and extract it to `C:\aseprite`
+Download the 1.12.18 source code from [https://github.com/aseprite/aseprite/releases/download/v1.2.18/Aseprite-v1.2.18-Source.zip](https://github.com/aseprite/aseprite/releases/download/v1.2.18/Aseprite-v1.2.18-Source.zip) and extract it to `C:\aseprite`
 
 Once you've done that,
 

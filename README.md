@@ -16,13 +16,17 @@ A guide to compiling Aseprite (1.12.18).
 
 ## Introduction
 
-[Aseprite](https://aseprite.org/) is an open source, 2D image creation tool geared towards sprite creation. It's robust, cross-platform, and stable. Even though it's open source, the licensing restricts the redistribution of built binaries (the executable) without prior permission. So, while you are free to build it from source and even use it commercially when built from source, you need to buy it to be able to have the luxury of just downloading it pre-made.
+[Aseprite](https://aseprite.org/) is a 2D image creation tool geared towards pixel art sprite creation. It's robust, cross-platform, and stable.
 
-That said, if you have the money to support the amazing developers, please do so. You pay once and have updates for life.
+Aseprite is a commercial application, but its source code is available. The [EULA](https://github.com/aseprite/aseprite/blob/main/EULA.txt) allows you to "compile and modify the source code \[...\] for your own personal purpose or to propose a contribution" to Aseprite (section 2g). This means if you want to try out Aseprite for free, you can compile the source code yourself.
 
-*Compiling* - The act of taking human readable source code and turning it into machine readable binary data with the use of programs called compilers.
+**WARNING:** Even though you can compile Aseprite and have full use of it without purchasing a commercial license, you are NOT allowed to use it commercially or publicly, such as by publishing a game that uses assets you created using an unlicensed, compiled version of Aseprite. Consider it an unlimited trial version. If you have the money to support the amazing developers, please do so. You pay once and have updates for life.
+
+It is also worth noting that there exists a version of Aseprite called [Libresprite](https://libresprite.github.io/), which was forked from the last commit of Aseprite that was licensed under the GNU General Public License. If you like Aseprite and want a true free software pixel art editor, consider checking it out.
 
 **NOTE:** This guide currently covers compiling on Windows. This information is sourced from the [installation guide](https://github.com/aseprite/aseprite/blob/master/INSTALL.md) on the [Aseprite GitHub](https://github.com/aseprite/aseprite). Refer to it for the most up to date version and any extras I may have glossed over. 
+
+*Compiling* - The act of taking human readable source code and turning it into machine readable binary data with the use of programs called compilers.
 
 ## Prerequisites
 
